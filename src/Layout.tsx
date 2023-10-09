@@ -1,7 +1,7 @@
 import { useDisclosure } from '@mantine/hooks';
 import { AppShell, Burger, Group, Skeleton, Text } from '@mantine/core';
 
-import GameGrid from './GameGrid.tsx';
+import GameGrid from './Shop/GameGrid.tsx';
 
 export default function AltLayout() {
   const [opened, { toggle }] = useDisclosure();
